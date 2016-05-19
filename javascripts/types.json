@@ -1,0 +1,41 @@
+{
+  "types": [
+    {
+      "id": 0,
+      "category": 0,
+      "name": "personal",
+      "description": "Fireworks intended for recreational use during holiday celebrations"
+
+    },
+    {
+      "id": 1,
+      "category": 0,
+      "name": "Professional",
+      "description": "Fireworks intended for professional  use during large events."
+
+    },
+    {
+      "id": 2,
+      "category": 0,
+      "name": "movie-effects",
+      "description": "Fireworks intended for blowing stuff up in awesome Hollywood movies."
+
+    },
+    {
+      "id": 3,
+      "category": 1,
+      "name": "construction",
+      "description": "Demolition intended to put holes in mountains."
+
+    },
+    {
+      "id": 4,
+      "category": 1,
+      "name": "military-grade",
+      "description": "Demolition intended to put holes in the enemy's of the U.S."
+
+    }
+
+  ]
+
+}

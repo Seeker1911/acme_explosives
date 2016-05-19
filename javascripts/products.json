@@ -1,0 +1,48 @@
+{
+  "products": [{
+    "fairy_sparklers": {
+      "id": 0,
+      "type": 0,
+      "name": "Fairy Sparklers",
+      "description": "Multi-colored sparklers that are safe for any age."
+
+    },
+    "Roman_Candles": {
+      "id": 1,
+      "type": 0,
+      "name": "Roman Candles",
+      "description": "Multi-colored bang-bang for any age."
+
+    },
+    "Disney_Land": {
+      "id": 2,
+      "type": 1,
+      "name": "Disney Land",
+      "description": "Lots of bang to go with that 8 dollar soda"
+
+    },
+    "Car_Explosion": {
+      "id": 3,
+      "type": 2,
+      "name": "Car Explosion",
+      "description": "Looks like a car blowing up."
+
+    },
+    "TNT": {
+      "id": 4,
+      "type": 3,
+      "name": "TNT",
+      "description": "Blow up a mountain."
+
+    },
+    "Grenade": {
+      "id": 5,
+      "type": 4,
+      "name": "Grendade",
+      "description": "Blow up a bad guy."
+
+    }
+
+  }]
+
+}

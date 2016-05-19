@@ -1,0 +1,8 @@
+//set some options for jshint. Create a .jshintrc in your directory and paste in the following configuration object.
+
+{
+  "predef": [ "document", "jQuery", "$", "console"  ],
+  "esversion": 6,
+  "globalstrict": true
+
+}

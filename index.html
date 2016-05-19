@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="main.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <title>ACME Explosives</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>ACME Explosives</h1>
+
+      <div class="row">
+
+        <div class="column col-lg-2">
+          <label for="categories">Categories</label>
+          <select id="selectCategories" name="categories">
+            <option value="" disabled selected>Choose category</option>
+            <!--<option value="0">Fireworks</option>-->
+            <!--<option value="1">Demolition</option>-->
+          </select>
+        </div>
+
+        <div class="column col-lg-2">
+          <label for="types">Types</label>
+          <select id="selectTypes" name="types" >
+            <option value=""selected>Choose a type</option>
+            <!--<option value="0">1stType</option>-->
+            <!--<option value="1">2ndType</option>-->
+          </select>
+        </div>
+
+        <div class="column col-lg-2">
+          <label for="products">Products</label>
+          <select id="selectProducts" name="products">
+            <option value="" disabled selected>Choose a product</option>
+            <!--<option value="0">1stProduct</option>-->
+            <!--<option value="1">2ndProduct</option>-->
+          </select>
+        </div>
+
+        <div id='output'>
+        </div>
+
+      </div>
+
+
+      </div>
+      <script src="node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
+      <script src="javascripts/main.js" type="text/javascript" charset="utf-8"></script>
+      <script src="javascripts/category.js" type="text/javascript" charset="utf-8"></script>
+    </body>
+  </html>

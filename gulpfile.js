@@ -1,0 +1,20 @@
+//crreate your gulpfile.js and paste in the following code
+
+var gulp = require('gulp');
+var jshint = require('gulp-jshint');
+var watch = require('gulp-watch');
+
+gulp.task('default', ['lint', 'watch']);
+
+gulp.task('watch', function() {
+    gulp.watch('./javascripts/**/*.js', ['lint']);
+
+});
+
+
+gulp.task('lint', function() {
+    return gulp.src('./javascripts/**/*.js')
+        .pipe(jshint())
+            .pipe(jshint.reporter('jshint-stylish'));
+
+});
